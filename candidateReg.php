@@ -7,7 +7,7 @@
     <title>Register as Candidate</title>
 </head>
 <body>
-    <?php include ('includes/navbar.php'); ?>
+    <?php include ('includes/navvbar.php'); ?>
     
     <div class="registration-form">
         <h2>Register as Candidate</h2>
@@ -41,16 +41,20 @@
             <div class="form-group">
     <label for="partylist">Partylist:</label>
     <select id="partylist" name="Partylist" required>
-        <option value="pogi">Pogi</option>
-        <option value="maganda">Maganda</option>
+        <option value="Blue">BLUE</option>
+        <option value="Red">RED</option>
+
     </select>
 </div>
 
            
             <div class="form-group">
-                <label for="Position">Position:</label>
-                <input type="text" id="position" name="Position" placeholder="Position" required>
-            </div>
+    <label for="Position">Position:</label>
+    <select id="Position" name="Position" required>
+        <option value="President">President</option>
+        <option value="Vice President">Vice President</option>
+        <option value="Muse">Muse</option>
+        <option value="Escort">Escort</option>
 
             
             <div class="form-group">
@@ -76,7 +80,7 @@
         </form>
     </div>
 
-    <?php include ('includes/footer.php'); ?>
+   
 </body>
 </html>
 

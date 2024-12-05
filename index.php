@@ -1,21 +1,23 @@
-<!-- index.php -->
-
-<?php 
-
-
-include ('includes/navbar.php'); ?>
+<?php include('includes/navvbar.php');?>
 
 <body>
+
+
+    <div class="page-wrapper">
+        <div class="container main-content">
+            <h1>Welcome to My Website</h1>
+            <p>Basta menu to</p>
+        </div>
+
+
+      
+
+        
+    </div>
+    
+
     
 
 
-
-<div class="container">
-    <h1>Welcome to My Website</h1>
-    <p>This is the home page of my PHP project.</p>
-</div>
-
 </body>
 
-
-<?php include ('includes/footer.php'); ?>

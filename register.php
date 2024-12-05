@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Register as Voter</title>
+    
 </head>
 <body>
-    <?php include ('includes/navbar.php'); ?>
+    <?php include ('includes/navvbar.php'); ?>
     
     <div class="registration-form">
         <h2>Register as Voter</h2>
@@ -52,7 +53,7 @@
         </form>
     </div>
 
-    <?php include ('includes/footer.php'); ?>
+   
 </body>
 </html>
 

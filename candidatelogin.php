@@ -7,7 +7,7 @@
     <title>login</title>
 </head>
 <body>
-    <?php include ('includes/navbar.php'); ?>
+    <?php include ('includes/navvbar.php'); ?>
     
     <div class="registration-form">
         <h2>Login</h2>
@@ -32,7 +32,7 @@
         </form>
     </div>
 
-    <?php include ('includes/footer.php'); ?>
+   
 </body>
 </html>
 
