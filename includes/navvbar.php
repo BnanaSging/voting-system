@@ -31,7 +31,7 @@
 
     <div class="navbar">
         <div class="logo">
-            <a href="admin/adminhome.php">Administrator</a>
+            <a href="admin/adminlogin.php">Administrator</a>
         </div>
         <div class="links">
         <a href="index.php">Home</a>

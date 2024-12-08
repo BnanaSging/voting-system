@@ -1,9 +1,9 @@
 <?php
   // index.php
   $cards = [
-      ['title' => 'Card 1', 'description' => 'Description for Card 1', 'link' => 'page1.php'],
-      ['title' => 'Card 2', 'description' => 'Description for Card 2', 'link' => 'page2.php'],
-      ['title' => 'Card 3', 'description' => 'Description for Card 3', 'link' => 'page3.php']
+      ['title' => 'user', 'description' => 'Description for Card 1', 'link' => 'page1.php'],
+      ['title' => 'vote result', 'description' => 'Description for Card 2', 'link' => 'page2.php'],
+      ['title' => 'candidates', 'description' => 'Description for Card 3', 'link' => 'page3.php']
   ];
 ?>
 
@@ -28,6 +28,7 @@
     </style>
 </head>
 <body>
+    
 
 <div class="container mt-5">
     <div class="row">
